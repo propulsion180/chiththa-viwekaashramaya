@@ -19,6 +19,14 @@ export default function Header() {
         <a
           className="nav-button"
           onClick={() => {
+            navigate("/location");
+          }}
+        >
+          Location
+        </a>
+        <a
+          className="nav-button"
+          onClick={() => {
             navigate("/donate");
           }}
         >

@@ -11,6 +11,7 @@ import Main from "./Main";
 import Header from "./Header";
 import Donate from "./Donate";
 import News from "./News";
+import Location from "./Location";
 
 const App: React.FC = () => {
   console.log("starting");
@@ -20,11 +21,14 @@ const App: React.FC = () => {
     <div className="center">
       <Router>
         <Header />
-        <Routes>
-          <Route path="/" element={<Main />} />
-          <Route path="/donate" element={<Donate />} />
-          <Route path="/news" element={<News />} />
-        </Routes>
+        <div className="page-content">
+          <Routes>
+            <Route path="/" element={<Main />} />
+            <Route path="/donate" element={<Donate />} />
+            <Route path="/news" element={<News />} />
+            <Route path="/location" element={<Location />} />
+          </Routes>
+        </div>
       </Router>
     </div>
   );
