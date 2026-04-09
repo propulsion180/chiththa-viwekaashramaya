@@ -1,47 +1,31 @@
 import React from "react";
 import { useParams, useNavigate } from "react-router-dom";
+import { useState, useEffect } from "react";
+import DesktopHeader from "./DesktopHeader";
+import MobileHeaeder from "./MobileHeader";
+
+function useWindowWidth() {
+  const [width, setWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => setWidth(window.innerWidth);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  return width;
+}
 
 export default function Header() {
   const navigate = useNavigate();
 
-  return (
-    <div className="header">
-      <h1>Chiththa Viwekaashramaya</h1>
-      <div className="navButtonContainer">
-        <a
-          className="nav-button"
-          onClick={() => {
-            navigate("/");
-          }}
-        >
-          Home
-        </a>
-        <a
-          className="nav-button"
-          onClick={() => {
-            navigate("/location");
-          }}
-        >
-          Location
-        </a>
-        <a
-          className="nav-button"
-          onClick={() => {
-            navigate("/donate");
-          }}
-        >
-          Donate
-        </a>
-        <a
-          className="nav-button"
-          onClick={() => {
-            navigate("/news");
-          }}
-        >
-          News
-        </a>
-      </div>
-      <hr className="hr-solid" />
-    </div>
-  );
+  const width = useWindowWidth();
+
+  const mobileCutOff = 630;
+
+  if (width > mobileCutOff) {
+    return <DesktopHeader />;
+  } else {
+    return <MobileHeaeder />;
+  }
 }
