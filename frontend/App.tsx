@@ -13,6 +13,7 @@ import Donate from "./Donate";
 import News from "./News";
 import Location from "./Location";
 import Gallery from "./Gallery";
+import Calendar from "./Calendar";
 
 const App: React.FC = () => {
   console.log("starting");
@@ -28,6 +29,7 @@ const App: React.FC = () => {
             <Route path="/donate" element={<Donate />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/news" element={<News />} />
+            <Route path="/calendar" element={<Calendar />} />
             <Route path="/location" element={<Location />} />
           </Routes>
         </div>

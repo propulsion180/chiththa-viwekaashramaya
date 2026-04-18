@@ -28,6 +28,14 @@ export default function Header() {
           <a
             className="nav-button"
             onClick={() => {
+              navigate("/calendar");
+            }}
+          >
+            Calendar
+          </a>
+          <a
+            className="nav-button"
+            onClick={() => {
               navigate("/donate");
             }}
           >

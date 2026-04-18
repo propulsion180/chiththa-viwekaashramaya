@@ -44,6 +44,15 @@ export default function Header() {
           <a
             className="mobile-header-nav-button"
             onClick={() => {
+              navigate("/calendar");
+              setMenuOpen(false);
+            }}
+          >
+            Calendar
+          </a>
+          <a
+            className="mobile-header-nav-button"
+            onClick={() => {
               navigate("/donate");
               setMenuOpen(false);
             }}
