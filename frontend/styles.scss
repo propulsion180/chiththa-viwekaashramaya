@@ -168,14 +168,14 @@ img {
 }
 
 .hr-solid {
-    bottom-top: none;
+    border-top: none;
     border-bottom: 0.2rem solid $border;
     margin-bottom: 1rem;
     width: 100%;
 }
 
 .hr-solid-m {
-    bottom-top: none;
+    border-top: none;
     border-bottom: 0.2rem solid $border;
     margin: 1rem 0;
     width: 100%;

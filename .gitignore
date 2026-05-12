@@ -2,3 +2,8 @@ pnpm-lock.yaml
 temple-server/static/*.jpg
 temple-server/static/*.png
 node_modules/
+temple-server/main
+temple-server/static/*.JPG
+temple-server/static/*.svg
+temple-server/static/*.jpeg
+temple-server/static/styles.css
