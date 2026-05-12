@@ -18,6 +18,9 @@ start_server() {
 build() {
     echo "[$(date)] Building..."
 
+    git reset --hard
+    git clean -fd
+
     git pull origin main
 
     echo "[$(date)] Building frontend..."
