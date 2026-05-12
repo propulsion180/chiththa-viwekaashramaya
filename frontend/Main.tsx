@@ -9,7 +9,7 @@ export default function Main() {
       <div className="main-page-image-container">
         <img
           className="main-page-image"
-          src="/static/temple-main-page.jpg"
+          src="/static/samadhi.jpg"
           alt="Main Page Temple image"
         />
       </div>
