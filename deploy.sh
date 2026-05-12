@@ -26,6 +26,8 @@ build() {
     echo "[$(date)] Building frontend..."
     pnpm run dev
 
+    chmod +x deploy.sh
+
     cd $SERVER_DIR
     echo "[$(date)] Building Go binary..."
     go build -o $BINARY $MAIN_GO

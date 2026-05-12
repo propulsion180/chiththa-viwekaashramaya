@@ -16,7 +16,15 @@ export default function Dana() {
       </p>
       <br />
       <h2>Pirikara</h2>
-      <p>The following is a list of things needed for the temple</p>
+      <p>
+        The following is a list of things needed for the temple. They are
+        ordered by urgency
+      </p>
+      <ol>
+        <li>Tissues</li>
+        <li>Nestomalt</li>
+        <li>Tea bags</li>
+      </ol>
     </div>
   );
 }
