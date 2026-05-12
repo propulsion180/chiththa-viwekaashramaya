@@ -26,6 +26,11 @@ export default function Donate() {
           </li>
         </ul>
       </p>
+      <br />
+      <p>
+        For queries please contact Deepa Keenawinna (Treasurer) at 0210748526 or
+        Thushara Sanjeewa (President) at 02102461516
+      </p>
       <div className="donate-page-image-container">
         <img
           className="donate-qr"
