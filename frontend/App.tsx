@@ -14,6 +14,7 @@ import News from "./News";
 import Location from "./Location";
 import Gallery from "./Gallery";
 import Calendar from "./Calendar";
+import Dana from "./Dana";
 
 const App: React.FC = () => {
   console.log("starting");
@@ -31,6 +32,7 @@ const App: React.FC = () => {
             <Route path="/news" element={<News />} />
             <Route path="/calendar" element={<Calendar />} />
             <Route path="/location" element={<Location />} />
+            <Route path="/dana" element={<Dana />} />
           </Routes>
         </div>
       </Router>

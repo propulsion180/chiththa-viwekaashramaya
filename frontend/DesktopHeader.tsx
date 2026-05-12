@@ -44,10 +44,10 @@ export default function Header() {
           <a
             className="nav-button"
             onClick={() => {
-              navigate("/news");
+              navigate("/dana");
             }}
           >
-            News
+            Dana
           </a>
           <a
             className="nav-button"

@@ -3,20 +3,15 @@ import { useParams, useNavigate } from "react-router-dom";
 
 export default function Donate() {
   return (
-    <div className="text-div">
+    <div className="text-div fill-parent">
       <h3>
         Thanks for deciding to donate to Chithatha Viwekaashramaya. Your
         donation will go towards, rent, bills, and the monk's necessities.
       </h3>
       <p>
-        An <strong>interim bank account</strong> has been set up by{" "}
-        <strong>Ranjith Nanayakkara</strong> as a separate account, until the
-        temple’s official bank account is opened.
-      </p>
-      <p>
-        <strong>Account Name:</strong> Ranjith Yapa Nanayakkara
+        <strong>Account Name:</strong> Chiththa Viwekaashramaya Trust
         <br />
-        <strong>Account No:</strong> 02-0528-0097381-005
+        <strong>Account No:</strong> 02-0506-0397121-000
         <br />
         <br />
         When transfering, please use your:
@@ -31,6 +26,13 @@ export default function Donate() {
           </li>
         </ul>
       </p>
+      <div className="donate-page-image-container">
+        <img
+          className="donate-qr"
+          src="/static/qrcode_chiththa.svg"
+          alt="Banking information to Donate to Chiththa Viwekaashramaya."
+        />
+      </div>
     </div>
   );
 }

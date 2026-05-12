@@ -62,13 +62,21 @@ export default function Header() {
           <a
             className="mobile-header-nav-button"
             onClick={() => {
-              navigate("/news");
+              navigate("/dana");
               setMenuOpen(false);
             }}
           >
-            News
+            Dana
           </a>
-
+          <a
+            className="mobile-header-nav-button"
+            onClick={() => {
+              navigate("/gallery");
+              setMenuOpen(false);
+            }}
+          >
+            Gallery
+          </a>
           <hr className="hr-solid-m" />
         </div>
       )}
