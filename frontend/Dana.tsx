@@ -14,6 +14,9 @@ export default function Dana() {
         <br />
         <strong>Phone No:</strong> 0221316453
       </p>
+      <br />
+      <h2>Pirikara</h2>
+      <p>The following is a list of things needed for the temple</p>
     </div>
   );
 }
