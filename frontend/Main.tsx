@@ -14,31 +14,39 @@ export default function Main() {
         />
       </div>
       <div className="main-text">
+        <h2>Welcome to Chiththa Viwekaashramaya</h2>
+        <br />
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ornare
-          dictum purus, mollis tincidunt ante tempor quis. Duis a leo consequat,
-          viverra arcu et, consequat dui. Nunc dapibus, nulla sit amet accumsan
-          tristique, lacus odio porttitor lorem, sollicitudin varius orci tellus
-          in erat. Nulla fermentum erat sit amet leo elementum, nec tempus nibh
-          blandit. Vestibulum sit amet odio bibendum, consectetur lacus vitae,
-          vulputate mauris. Etiam dignissim ultrices consequat. Aliquam
-          condimentum semper lectus, sit amet iaculis quam dapibus ac. Duis
-          posuere sapien malesuada mattis consequat. Nullam a erat eget purus
-          scelerisque cursus. Pellentesque eget lectus sem. Vestibulum viverra
-          imperdiet lobortis. Maecenas sollicitudin elit vitae iaculis feugiat.
+          Chiththa Viwekaashramaya is a Theravāda Buddhist temple based in Lower
+          Hutt, Wellington, established to preserve, practise, and share the
+          teachings of the Buddha within New Zealand.
         </p>
+        <br />
         <p>
-          Quisque tempor feugiat magna at posuere. Quisque ut justo a nisl
-          congue accumsan at id ipsum. Nulla vel urna urna. Nam mauris diam,
-          malesuada vel nulla eget, mattis suscipit tellus. Praesent fringilla,
-          sapien sed faucibus ullamcorper, ligula justo hendrerit nunc, a
-          feugiat metus nibh at erat. Pellentesque habitant morbi tristique
-          senectus et netus et malesuada fames ac turpis egestas. Quisque dictum
-          quis tellus ac lobortis. Sed facilisis quam in urna bibendum
-          consectetur. Etiam mollis justo quam, a posuere dolor porttitor vel.
-          Sed vehicula ultricies nisi, et pharetra felis eleifend et. In tempor
-          elementum commodo. Integer viverra fringilla ex, id vulputate ante
-          posuere eget. Nulla facilisi.
+          Rooted in the teachings of the Buddha, our temple serves as a
+          spiritual home for the Sri Lankan Buddhist community in New Zealand,
+          while warmly welcoming people of all backgrounds who wish to learn and
+          connect through kindness, compassion, and the Dhamma.
+        </p>
+        <br />
+        <p>
+          At Chiththa Viwekaashramaya, we believe in fostering a sense of
+          community, generosity, and harmony. Through religious observances,
+          offering dana to the Maha Sangha, Dhamma discussions, community
+          gatherings, and cultural events, we strive to preserve and share rich
+          Buddhist traditions and values for future generations.
+        </p>
+        <br />
+        <p>
+          The temple warmly welcomes all who wish to pay homage to the Triple
+          Gem and take part in the practice and preservation of the Buddha
+          Sasana.
+        </p>
+        <br />
+        <p>
+          <strong>
+            May the blessings of the Triple Gem be with you always.
+          </strong>
         </p>
       </div>
     </div>

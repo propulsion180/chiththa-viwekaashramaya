@@ -4,10 +4,16 @@ import { useParams, useNavigate } from "react-router-dom";
 export default function Donate() {
   return (
     <div className="text-div fill-parent">
-      <h3>
-        Thanks for deciding to donate to Chithatha Viwekaashramaya. Your
-        donation will go towards, rent, bills, and the monk's necessities.
-      </h3>
+      <h2>Donate</h2>
+      <p>
+        Thank you for choosing to support Chiththa Viwekaashramaya. Your
+        generosity and kindness help support the continued growth of the temple
+        and the wellbeing of the Maha Sangha.
+      </p>
+      <p>
+        Donations will go towards the temple’s ongoing expenses, including rent,
+        utilities, maintenance, and the daily necessities of the monk.
+      </p>
       <p>
         <strong>Account Name:</strong> Chiththa Viwekaashramaya Trust
         <br />
@@ -27,9 +33,18 @@ export default function Donate() {
         </ul>
       </p>
       <br />
+      <p>For queries please contact:</p>
       <p>
-        For queries please contact Deepa Keenawinna (Treasurer) at 0210748526 or
-        Thushara Sanjeewa (President) at 02102461516
+        Deepa Keenawinna (Treasurer) - <strong>021 074 8526</strong>
+      </p>
+      <br />
+      <p>
+        Thushara Sanjeewa (President) - <strong>021 024 61516</strong>
+      </p>
+      <p>
+        <strong>
+          We sincerely thank you for your generosity, support, and blessings.
+        </strong>
       </p>
       <div className="donate-page-image-container">
         <img

@@ -6,13 +6,21 @@ export default function Dana() {
     <div className="text-div">
       <h2>Dana Roster</h2>
       <p>
-        If you would like to reserve a date to provide Dane (a meal for the
-        monk) for the monk please contact:
+        Offering Dana to the Maha Sangha is a deeply meritorious act in
+        Buddhism, practised with faith, generosity, and gratitude.
+      </p>
+      <p>
+        If you would like to reserve a date to offer Dana (a meal) for the monk,
+        please contact:
       </p>
       <p>
         <strong>Azhani</strong>
         <br />
-        <strong>Phone No:</strong> 0221316453
+        📞 0221316453
+      </p>
+      <p>
+        We sincerely thank all devotees for their continued generosity and
+        support.
       </p>
       <br />
       <h2>Pirikara</h2>
