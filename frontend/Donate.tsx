@@ -7,12 +7,12 @@ export default function Donate() {
       <h2>Donate</h2>
       <p>
         Thank you for choosing to support Chiththa Viwekaashramaya. Your
-        generosity and kindness help support the continued growth of the temple
-        and the wellbeing of the Maha Sangha.
+        generosity and kindness help support the continued growth of the
+        aashramaya and the wellbeing of the Maha Sangha.
       </p>
       <p>
-        Donations will go towards the temple’s ongoing expenses, including rent,
-        utilities, maintenance, and the daily necessities of the monk.
+        Donations will go towards the aashramaya’s ongoing expenses, including
+        rent, utilities, maintenance, and the daily necessities of the monk.
       </p>
       <p>
         <strong>Account Name:</strong> Chiththa Viwekaashramaya Trust
@@ -41,6 +41,10 @@ export default function Donate() {
       <p>
         Thushara Sanjeewa (President) - <strong>021 024 61516</strong>
       </p>
+      <p>
+        Ranjith Nanayakkara (Cheif Coordinator) - <strong>022 071 0471</strong>
+      </p>
+
       <p>
         <strong>
           We sincerely thank you for your generosity, support, and blessings.
